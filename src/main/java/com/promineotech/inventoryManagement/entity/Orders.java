@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.promineotech.inventoryManagement.util.OrderStatus;
 
 @Entity
-public class Order {
+public class Orders {
 
 	private Long id;
 	private LocalDate ordered;
