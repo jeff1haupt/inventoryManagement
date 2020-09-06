@@ -24,6 +24,8 @@ public class Product {
 	@JsonIgnore
 	private Set<Orders> orders;
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	public Long getId() {
 		return id;
 	}
